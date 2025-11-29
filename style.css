@@ -1,0 +1,137 @@
+.background-iamge{
+    background-size: cover;
+    width: 100%; /* home page*/
+}
+
+.border{
+    border: 15px solid blue;
+    width: 200px;
+    
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(131, 161, 254);
+    color: white;
+    margin: 1rem;
+    padding: 0.7rem; /* login & sign up*/
+}
+
+.intro{
+    width: 1000px;
+    height: 400px;
+   direction: ltr;
+   box-sizing: border-box;
+   border: 0px solid black;
+   margin: 2rem;
+   padding: 1rem;
+   background-color:lightgrey;
+   border-radius: 9px; /* home page*/
+}
+
+
+ul :hover{
+    transform: scale(1.1);
+    color: aqua;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  background: #a5c3d0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.card a {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+.footer a:hover {
+    color: #FCF5F5;
+}
+
+/* Navbar */
+
+  .nav-link:hover {
+    color: #4cc9ff !important;
+    transform: translateY(-3px);
+  }
+
+      /* Footer */
+footer, .bg-dark {
+  background: #03374e !important;
+  padding-top: 15px;
+}
+
+.footer h4 {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  font-size: 14px;
+  color: #b8c4d8;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #00c4ff !important;
+  margin-left: 5px;
+}
+
+/* Social Icons */
+.footer i {
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+
+.footer i:hover {
+  color: #26e0ff;
+  transform: scale(1.3);
+}
+
+/* Glow underline */
+h3::after {
+  
+  width: 80px;
+  height: 3px;
+  background: #4cc9ff;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .col-5, .col-7 {
+    margin-top: 20px;
+  }
+}
